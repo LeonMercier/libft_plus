@@ -6,7 +6,7 @@
 /*   By: lemercie <lemercie@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 12:26:57 by lemercie          #+#    #+#             */
-/*   Updated: 2024/07/03 11:37:46 by lemercie         ###   ########.fr       */
+/*   Updated: 2024/07/22 12:03:54 by lemercie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,7 @@ void	ft_lstclear(t_list **lst, void (*del) (void *));
 void	ft_lstiter(t_list *lst, void (*f) (void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f) (void *), void (*del) (void *));
 int		ft_atoi_safe(const char *str, int *err_atoi);
+int		ft_atoi_safe2(const char *str, int *err_atoi);
 // ft_printf
 int		get_hexlen(uintptr_t n);
 int		ft_write_buf(char *buf, int buflen);
