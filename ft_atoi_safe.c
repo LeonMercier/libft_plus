@@ -6,11 +6,15 @@
 /*   By: lemercie <lemercie@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 14:16:46 by lemercie          #+#    #+#             */
-/*   Updated: 2024/07/03 11:34:38 by lemercie         ###   ########.fr       */
+/*   Updated: 2024/12/16 12:24:37 by lemercie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* 
+* This version sets error if there are tailing non-digits
+*/
 
 static int	ft_iswhitespace(const char c)
 {
